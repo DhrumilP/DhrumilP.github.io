@@ -122,10 +122,6 @@
   max-height: 95vh;
   }
 
-  #overlay {
-  position: relative;
-  padding: 50px;
-  }
 
 
     #body-particles {
@@ -138,10 +134,6 @@
     min-height: 565px;
     height: 100vh;
     }
-
-    /* #body-overlay {
-    position: relative;
-    } */
 
   .about{
     font-family: "librebaskerville-bold", serif;
@@ -318,7 +310,7 @@
   ::-webkit-scrollbar-thumb:hover {
     background-color: #28313b;
   }
-  .projects .h2{
+  .projects  .h2{
     color: #11537a;
     font-family: montserrat-regular;
   }
@@ -330,3 +322,29 @@
   #slash{
     color: #12100e;
   }
+  .skills  .h2{
+    color: #11537a;
+    font-family: montserrat-regular;
+  }
+.skills-icon{
+  background: linear-gradient(to right, #4c4177 0%, #5b8fb3 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.skills{
+  font-family: 'Poppins', sans-serif;
+}
+.skills .card-text{
+  line-height: 1.7;
+}
+.skills-icon{
+  font-size: 60px;
+}
+.skills-line{
+  width: 35px;
+  height: 1px;
+  background-color: #2a5470;
+}
+.skills .h6{
+  letter-spacing: 2px;
+}
