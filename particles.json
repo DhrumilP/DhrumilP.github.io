@@ -1,20 +1,20 @@
 {
   "particles":{
     "number":{
-      "value":40
+      "value":30
     },
     "color":{
-      "value":"#A9A9A9"
+      "value":"#778899"
     },
     "opacity":{
-      "random":false,
+      "random":true,
       "anim":{
-        "enable": true,
+        "enable": false,
         "speed": 3
       }
     },
     "size":{
-      "value":"6",
+      "value":"5",
       "random":true
     },
     "line_linked":{
@@ -28,7 +28,7 @@
     "events": {
       "onhover": {
         "enable": false,
-        "mode": "repulse"
+        "mode": "bubble"
       },
       "onclick": {
         "enable": false,
