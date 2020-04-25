@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 15/04/2020 03:31
+  	Creation date: 22/04/2020 05:24
   	*/
 	@font-face {
 	  font-family: "Flaticon";
@@ -27,26 +27,38 @@
 	  font-style: normal;
 	}
 
-	.flaticon-microcontroller:before {
+	.flaticon-badminton:before {
 	  content: "\f100";
 	}
 
-	.flaticon-code:before {
+	.flaticon-help:before {
 	  content: "\f101";
 	}
 
-	.flaticon-java:before {
+	.flaticon-brain:before {
 	  content: "\f102";
 	}
 
-	.flaticon-python-file:before {
+	.flaticon-java:before {
 	  content: "\f103";
 	}
 
-	.flaticon-water-pump:before {
+	.flaticon-code:before {
 	  content: "\f104";
 	}
 
-	.flaticon-machinery:before {
+	.flaticon-python-file:before {
 	  content: "\f105";
+	}
+
+	.flaticon-water-pump:before {
+	  content: "\f106";
+	}
+
+	.flaticon-machinery:before {
+	  content: "\f107";
+	}
+
+	.flaticon-microcontroller:before {
+	  content: "\f108";
 	}

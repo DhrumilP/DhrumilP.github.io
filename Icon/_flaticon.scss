@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 15/04/2020 03:31
+    Creation date: 22/04/2020 05:24
     */
 
     @font-face {
@@ -37,16 +37,22 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-microcontroller:before { content: "\f100"; }
-.flaticon-code:before { content: "\f101"; }
-.flaticon-java:before { content: "\f102"; }
-.flaticon-python-file:before { content: "\f103"; }
-.flaticon-water-pump:before { content: "\f104"; }
-.flaticon-machinery:before { content: "\f105"; }
+    .flaticon-badminton:before { content: "\f100"; }
+.flaticon-help:before { content: "\f101"; }
+.flaticon-brain:before { content: "\f102"; }
+.flaticon-java:before { content: "\f103"; }
+.flaticon-code:before { content: "\f104"; }
+.flaticon-python-file:before { content: "\f105"; }
+.flaticon-water-pump:before { content: "\f106"; }
+.flaticon-machinery:before { content: "\f107"; }
+.flaticon-microcontroller:before { content: "\f108"; }
     
-    $font-Flaticon-microcontroller: "\f100";
-    $font-Flaticon-code: "\f101";
-    $font-Flaticon-java: "\f102";
-    $font-Flaticon-python-file: "\f103";
-    $font-Flaticon-water-pump: "\f104";
-    $font-Flaticon-machinery: "\f105";
+    $font-Flaticon-badminton: "\f100";
+    $font-Flaticon-help: "\f101";
+    $font-Flaticon-brain: "\f102";
+    $font-Flaticon-java: "\f103";
+    $font-Flaticon-code: "\f104";
+    $font-Flaticon-python-file: "\f105";
+    $font-Flaticon-water-pump: "\f106";
+    $font-Flaticon-machinery: "\f107";
+    $font-Flaticon-microcontroller: "\f108";

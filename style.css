@@ -1,22 +1,6 @@
-@font-face {
-  font-family: Chap;
-  src: url(Chap.otf) format("opentype");
-  font-family: Bold;
-  src: url(Bold.otf) format("opentype");
-  font-family: Light;
-  src: url(Light.otf) format("opentype");
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&family=Vollkorn&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-/* ===================================================================
-   * fonts.scss)
-   *
-   * ------------------------------------------------------------------- */
-/*
-   * Libre Baskerville
-  ================================================================================ */
 @font-face {
   font-family: "librebaskerville-regular";
   src: url("../fonts/librebaskerville-regular-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
@@ -55,86 +39,104 @@
   font-weight: normal;
 }
 
-/* #myDiv {
-  display: none;
-  text-align: center;
-} */
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
+
 body {
   overflow-y: hidden;
   height: 100vh;
 }
 
-html {
-  scroll-behavior: smooth;
+i {
+  color: #fff8dc;
 }
 
-.navbar {
-  background-color: #2b4162;
-  background-image: linear-gradient(315deg, #061A2A 0%, #12100e 45%);
+footer {
+  background-color: #4c4177;
+  background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+  color: white;
 }
 
-.navbar-toggler:focus, .navbar-toggler:active {
-  outline: none;
-  box-shadow: none;
+footer i {
+  color: white;
+  font-size: 15px;
 }
 
-.jackInTheBox {
-  animation-duration: 1.5s;
-}
-
-.fadeInUp {
-  animation-duration: 1.5s;
-}
-
-.fadeInLeft {
-  animation-duration: 1.5s;
-}
-
-.new {
-  width: 18px;
-  height: 2px;
-  background-color: #fffcf0;
-  margin: 4.5px 0;
-  border: none;
-}
-
-.nav-item {
-  font-family: 'Poppins', sans-serif;
-  color: #fffcf0;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-.image_set {
-  margin-bottom: 0px;
-}
-
-.intro {
-  height: 100vh;
-  min-height: 670px;
-  background-color: #061A2A;
-  background-image: linear-gradient(315deg, #061A2A 0%, #12100e 60%);
-}
-
-.badge {
+footer p {
   font-family: montserrat-regular;
 }
 
-.line-f {
+/* general stuff */
+.mainHeading {
+  color: #11537a;
+  font-family: montserrat-regular;
+}
+
+.card {
+  color: #485461;
+}
+
+.sectionDivider {
   width: 100%;
-  height: 0.7px;
-  background-color: white;
+  height: 0.8px;
+  background-color: #7e8894;
 }
 
-.card-body {
-  font-family: librebaskerville-regular;
+#projects {
+  padding-top: 59px;
 }
 
-.dit {
-  color: #000000;
+#hobbies {
+  padding-top: 59px;
+}
+
+#skills {
+  padding-top: 59px;
+}
+
+#about {
+  padding-top: 50px;
+}
+
+#hobby-text {
+  color: #11537a;
+  font-family: montserrat-regular;
+}
+
+#slash {
+  color: #12100e;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cfc0c0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7e8894;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #28313b;
+}
+
+/*  */
+#spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  z-index: 999999;
 }
 
 #particles-js {
@@ -159,118 +161,55 @@ html {
   height: 120vh;
 }
 
-.about-section .h6 {
-  font-family: "librebaskerville-bold", serif;
-  line-height: 1.8;
-  color: #2e383f;
-  font-size: 18px;
+/* navbar css starts */
+.navbar {
+  background-color: #2b4162;
+  background-image: linear-gradient(315deg, #061A2A 0%, #12100e 45%);
+  font-family: 'Poppins', sans-serif;
+  color: #fffcf0;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-.name-heading {
-  font-family: "librebaskerville-bold", serif;
-  line-height: 1.8;
-  color: #2e383f;
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
 }
 
-.about-highlight-text {
-  color: #4863A0;
+/* animation */
+.jackInTheBox {
+  animation-duration: 1.5s;
 }
 
-#about_me {
-  font-family: "montserrat-bold", sans-serif;
-  font-size: 1rem;
-  line-height: 1.2;
-  color: #07617d;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  position: relative;
+.fadeInUp {
+  animation-duration: 1.5s;
 }
 
-.card {
-  color: #485461;
-}
-
-.line_about {
-  width: 3.5px;
-  height: 100px;
-  background-color: #7e8894;
-  margin: 4.5px;
+/* navbar toggle icon */
+.navbarTogglerLine {
+  width: 18px;
+  height: 2px;
+  background-color: #fffcf0;
+  margin: 4.5px 0;
   border: none;
 }
 
-#spinner-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #7f5a83;
-  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-  z-index: 999999;
+/* navbar sets line on hover */
+.navbar-nav>.nav-item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #fff;
+  transition: width .3s ease;
 }
 
-.cube1, .cube2 {
-  background-color: #fff8dc;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
-  animation: sk-cubemove 1.8s infinite ease-in-out;
+.navbar-nav>.nav-item:hover::after {
+  width: 100%;
+  transition: width .3s ease-out;
 }
 
-.cube2 {
-  -webkit-animation-delay: -0.9s;
-  animation-delay: -0.9s;
-}
-
-@-webkit-keyframes sk-cubemove {
-  25% {
-    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5)
-  }
-
-  50% {
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg)
-  }
-
-  75% {
-    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5)
-  }
-
-  100% {
-    -webkit-transform: rotate(-360deg)
-  }
-}
-
-@keyframes sk-cubemove {
-  25% {
-    transform: translateX(42px) rotate(-90deg) scale(0.5);
-    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
-  }
-
-  50% {
-    transform: translateX(42px) translateY(42px) rotate(-179deg);
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
-  }
-
-  50.1% {
-    transform: translateX(42px) translateY(42px) rotate(-180deg);
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
-  }
-
-  75% {
-    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-  }
-
-  100% {
-    transform: rotate(-360deg);
-    -webkit-transform: rotate(-360deg);
-  }
-}
-
-.Circle {
+.socialCircleIcon {
   height: 33px;
   width: 33px;
   background-color: #292826;
@@ -280,165 +219,59 @@ html {
   line-height: 33px;
 }
 
-i {
-  color: #fff8dc;
+/* navbar css ends */
+/* hero section */
+.heroLandingSection {
+  height: 100vh;
+  min-height: 670px;
+  background-color: #061A2A;
+  background-image: linear-gradient(315deg, #061A2A 0%, #12100e 60%);
 }
 
-.box span {
-  width: 20px;
-  height: 20px;
-  display: block;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  transform: rotate(45deg);
-  margin: -10px;
-  animation: animate 2s infinite;
-}
-
-.box span:nth-child(2) {
-  animation-delay: -0.2s;
-}
-
-@keyframes animate {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-    transform: rotate(45deg) translate(10px, 10px);
-  }
-
-  100% {
-    opacity: 0;
+@media screen and (min-width: 585px) {
+  div.heroText>.nonHighlightedHero {
+    font-size: 55px;
   }
 }
 
-footer {
-  background-color: #4c4177;
-  background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
-  color: white;
-  /* background-color: #28313b; */
+@media screen and (max-width: 585px) {
+  div.heroText>.nonHighlightedHero {
+    font-size: 40px;
+  }
 }
 
-.Circle-footer {
-  height: 35px;
-  width: 35px;
-  background-color: #28313b;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 35px;
+@media screen and (min-width: 585px) {
+  div.heroText>.highlightedHero {
+    font-size: 55px;
+  }
 }
 
-footer i {
-  color: white;
-  font-size: 15px;
+@media screen and (max-width: 585px) {
+  div.heroText>.highlightedHero {
+    font-size: 40px;
+  }
 }
 
-.fa-heart {
-  font-size: 13px;
+#home {
+  font-family: 'Montserrat', sans-serif;
+  color: #fffcf0;
+  line-height: 1.2;
 }
 
-footer p {
-  font-family: montserrat-regular;
+.heroText>.nonHighlightedHero {
+  font-weight: 400;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
+.heroText>.highlightedHero {
+  font-weight: 700;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #cfc0c0;
+/* social icons like git */
+.social-icons {
+  font-size: 20px;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #7e8894;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background-color: #28313b;
-}
-
-.projects .h1 {
-  color: #11537a;
-  font-family: montserrat-regular;
-}
-
-.line-projects {
-  width: 100%;
-  height: 0.7px;
-  background-color: #7e8894;
-}
-
-.heading-line {
-  width: 100%;
-  height: 0.8px;
-  background-color: #7e8894;
-}
-
-#slash {
-  color: #12100e;
-}
-
-.skills .h1 {
-  color: #11537a;
-  font-family: montserrat-regular;
-}
-
-.about-section .h1 {
-  color: #11537a;
-  font-family: montserrat-regular;
-}
-
-.hobbies .h1 {
-  color: #11537a;
-  font-family: montserrat-regular;
-}
-
-.skills-icon {
-  background: linear-gradient(to right, #4c4177 0%, #5b8fb3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.skills {
-  font-family: 'Poppins', sans-serif;
-}
-
-.skills .card-text {
-  line-height: 1.7;
-}
-
-.skills-icon {
-  font-size: 60px;
-}
-
-.skills-line {
-  width: 35px;
-  height: 1px;
-  background-color: #2a5470;
-}
-
-.skills .h6 {
-  letter-spacing: 2px;
-}
-
-.dot {
-  background-color: #fc9842;
-  background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 78%);
-}
-
-.timeline_line {
-  width: 1px;
-  height: 100%;
-  background-color: black;
-  margin-left: 30px;
-}
-
+/* blinking effect */
 .blink {
   animation: blink 0.8s infinite;
 }
@@ -449,66 +282,7 @@ footer p {
   }
 }
 
-.intro {
-  letter-spacing: 2px;
-}
-
-.landing-text>p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 2.5rem;
-  color: #fffcf0;
-}
-
-.hello-welcome {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  color: #fffcf0;
-}
-
-.landing-text>.header-sub-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 2.5rem;
-  color: #fffcf0;
-}
-
-.social-icons {
-  font-size: 20px;
-}
-
-/* .header-sub-title {
-  color: #fff;
-  font-family: "Courier";
-  font-size: 20px;
-  padding: 0.1em;
-} */
-/* .backgroun img {
-  display: block;
-}
-
-.backgroun .surya img {
-  display: block;
-}
-
-/* .surya {
-  margin-bottom: -100px;
-  margin-top: -100px;
-}
-
-.surya-2 {
-  margin-top: -100px;
-  margin-bottom: -100px;
-}
-
-.chandra {
-  margin-top: -200px;
-  margin-bottom: -50px;
-} */
-/* .backgroun .surya-2 img {
-  display: block;
-} */
+/* icon scroll starts */
 .icon-scroll,
 .icon-scroll:before {
   position: absolute;
@@ -582,100 +356,88 @@ footer p {
   }
 }
 
-#projects {
-  padding-top: 59px;
-}
-
-#skills {
-  padding-top: 59px;
-}
-
+/* icon scroll animation */
+/* hero section ends */
+/* --------------------------------------------------- */
+/* about section */
 #about {
-  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #2e383f;
 }
 
-#hobbies {
-  padding-top: 50px;
+#about .h6 {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 2.5;
 }
 
-#hobby-text {
-  color: #11537a;
-  font-family: montserrat-regular;
+.name-heading {
+  color: #2e383f;
+  line-height: 1.8;
 }
 
-/* .water {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url(wave.png);
-  background-size: 1000px 25px;
-} */
-/* .intro::after {
-  content: "";
-  position: absolute;
-  bottom: -40px;
-  left: 0;
-  z-index: 1;
-  width: 100%;
+.accentText {
+  color: #4863A0;
+}
+
+.verticalAboutLine {
+  width: 3.5px;
   height: 100px;
-  background: transparent;
-  background-size: 100% 100%;
-  background-image: url(wave.png);
-} */
-/*
-.water1 {
-  animation: animatewater 25s linear infinite;
-  z-index: 1000;
-  opacity: 3;
-  animation-delay: 0s;
-  bottom: 0;
+  background-color: #7e8894;
+  margin: 4.5px;
+  border: none;
 }
 
-.water2 {
-  animation: animatewater2 15s linear infinite;
-  z-index: 999;
-  opacity: 0.5;
-  animation-delay: -5s;
-  bottom: 2px;
+/* about section ends */
+/* hobbies start */
+#hobbies .card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
-.water3 {
-  animation: animatewater 20s linear infinite;
-  z-index: 998;
-  opacity: 0.3;
-  animation-delay: -2s;
-  bottom: 5px;
+#hobbies .card-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
 }
 
-.water2 {
-  animation: animatewater2 5s linear infinite;
-  z-index: 997;
-  opacity: 0.7;
-  animation-delay: -5s;
-  bottom: 7px;
+/* hobbies end */
+/* skills start */
+.skills-icon {
+  font-size: 60px;
 }
 
-@keyframes animatewater {
-  0% {
-    background-position-x: 0;
-  }
-
-  100% {
-    background-position-x: 1000px;
-  }
+.skillsSectionLine {
+  width: 35px;
+  height: 1px;
+  background-color: #2a5470;
 }
 
-@keyframes animatewater2 {
-  0% {
-    background-position-x: 0;
-  }
+.skills-icon {
+  background: linear-gradient(to right, #4c4177 0%, #5b8fb3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  100% {
-    background-position-x: 1000px;
-  }
-} */
+.skills {
+  font-family: 'Poppins', sans-serif;
+}
+
+#skills .card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+#skills .card-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/* skills end */
+/* project starts */
 #blob {
   height: 19px;
   width: 19px;
@@ -711,20 +473,43 @@ footer p {
   color: #fff;
 }
 
-.navbar-nav>.nav-item::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 1px;
-  background: #fff;
-  transition: width .3s ease;
+.timelineDot {
+  background-color: #fc9842;
+  background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 78%);
 }
 
-.navbar-nav>.nav-item:hover::after {
+.projects h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.projects .card-body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/* project ends */
+/* footer */
+.Circle-footer {
+  height: 35px;
+  width: 35px;
+  background-color: #28313b;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+}
+
+.fa-heart {
+  font-size: 13px;
+}
+
+.footerSectionLine {
   width: 100%;
-  transition: width .3s ease-out;
+  height: 0.7px;
+  background-color: white;
 }
 
-.navbar-nav>.active::after {
-  border-bottom: 1px solid white;
-}
+/* footer ends */

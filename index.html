@@ -6,526 +6,189 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-  <!-- Icon from flaticon -->
-  <link rel="stylesheet" href="Icon/flaticon.css">
-  <!-- <link rel="stylesheet" href="Icon/flaticon-2.css"> -->
-  <!--  -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <!-- ICON at the top -->
-  <link rel="icon" href="icon.png" sizes="32x32">
-  <!-- icon -->
+  <!-- Icon from flaticon like volunteering-->
+  <link rel="stylesheet" href="icon/flaticon.css">
+  <!-- bootstrap css link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ICON on the tab -->
+  <link rel="icon" href="img/icon.png" sizes="32x32">
+  <!-- icon from fontawesome like linkedin-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-  <!-- animate.css -->
+  <!-- animate on scroll css -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- Bootstrap CSS -->
+  <!-- animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
   <!-- style.css -->
   <link rel="stylesheet" href="style.css">
   <title>Dhrumil Pandya | Developer, Designer, Learner</title>
-  <!-- Start of Async Drift Code -->
 </head>
-<!-- Body begins -->
+
+<!-- body starts -->
 
 <body data-spy="scroll" data-target="#navbar-site">
-  <!-- Function for preloader -->
+  <!-- preloader -->
   <div id="spinner-wrapper">
     <div class="container-fluid h-100" id="spinner">
       <div class="row row-cols-1 h-100">
         <div class="col d-flex flex-column justify-content-center align-items-center">
-          <img src="preloader.svg" alt="" height="100px" width="100px">
+          <img src="img/preloader.svg" alt="" height="110px" width="110px"> <!-- preloader image -->
         </div>
       </div>
     </div>
   </div>
 
+  <!-- particles for both body and hero -->
   <div id="particles-js"></div>
   <div id="body-particles"></div>
 
-  <div id="myDiv">
-
-    <nav id="navbar-site" class="navbar navbar-dark navbar-expand-lg fixed-top">
-      <a class="navbar-brand ml-5 mr-0 animated fadeInDown delay-3s" href="index.html">
-        <img src="icon.png" width="30" height="30" alt="">
-      </a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="new"></div>
-        <div class="new"></div>
-        <div class="new"></div>
-      </button>
-      <div class="collapse navbar-collapse d-lg-flex justify-content-md-center justify-content-start" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item pr-lg-3 ml-lg-0 ml-5 pl-0 py-2 nav-link active" href="#home">Home</a>
-          <a class="nav-item px-lg-3 ml-lg-0 ml-5 py-2 nav-link" href="#about">About</a>
-          <a class="nav-item px-lg-3 ml-lg-0 ml-5 py-2 nav-link" href="#projects">Projects</a>
-          <a class="nav-item px-lg-3 ml-lg-0 ml-5 py-2 nav-link" href="#skills">Skills</a>
-          <div class="d-flex nav-2 mx-0 mt-2 d-lg-none justify-content-md-start ml-5 p-0">
-            <div class="Circle mr-2 mb-3"><a href="https://ca.linkedin.com/in/pandya-dhrumil" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></div>
-            <div class="Circle mx-2 mb-3"><a href="resume.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file"></i></a></div>
-            <div class="Circle mx-2 mb-3"><a href="mailto: dhrumil172@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></div>
-            <div class="Circle mx-2"><a href="https://github.com/DhrumilP" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- home -->
-    <section class="home-section" id="home">
-      <div class="container-fluid intro no-gutters" id="home">
-        <div class="row row-cols-1 h-100">
-          <div class="col d-flex flex-column justify-content-center">
-            <figure class="text-center mt-n5 image_set">
-              <img src="headerMad-logo-icon.png" class="img-fluid mt-n5 mt-5 animated jackInTheBox delay-3s" alt="Main_Logo" width="200px">
-            </figure>
-            <div class="animated slideInUp delay-3s">
-              <div class="d-flex landing-text justify-content-center mb-2">
-                <p class="h1">I am&nbsp;</p>
-                <p class="header-sub-title h1" id="word"></p>
-                <p class="header-sub-title h1 blink">|</p>
-              </div>
-              <p class="text-center hello-welcome">Nice to meet you!</p>
-              <div class="d-flex nav-2 mx-0 mt-2 justify-content-center">
-                <div class="social-icons mr-3 mb-3"><a href="https://ca.linkedin.com/in/pandya-dhrumil" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></div>
-                <div class="social-icons mx-3 mb-3"><a href="resume.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file"></i></a></div>
-                <div class="social-icons mx-3 mb-3"><a href="mailto: dhrumil172@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></div>
-                <div class="social-icons mx-3"><a href="https://github.com/DhrumilP" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
-              </div>
-            </div>
-            <a href="#about" class="mt-md-n0 mt-n5">
-              <div class='icon-scroll'></div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="water"></div> -->
-    </section>
-
-    <!-- about me -->
-    <section class="about-section" id="about">
-      <div class="container-fluid mb-md-n5">
-        <div class="row justify-content-center">
-          <div class="col d-flex no-gutters justify-content-center mt-5">
-            <div class="line_about"></div>
-          </div>
-          <div class="col col-12 text-center mt-4 mb-2">
-            <h2 class="h1"><span id="slash">/</span>ABOUT ME</h2>
-          </div>
-          <div class="col col-12 mt-3 mb-5">
-            <div class="row d-flex justify-content-center">
-              <div class="col col-5 col-lg-4 col-md-3 col-sm-5 heading-line"></div>
-            </div>
-          </div>
-          <div class="col col-md-9 col-10 d-flex flex-column justify-content-center about-content">
-            <p class="h4 text-center name-heading">Hello! I'm Dhrumil Pandya</p>
-            <p class="h6 text-center text-secondary">Designer <span class="text-danger h4">.</span> Developer <span class="text-danger h4">.</span> Student</p>
-            <p class="h6 text-center">Welcome to <span class="about-highlight-text">my portfolio</span>. This portfolio is to display some of my projects, skills and hobbies.
-              I'm currently a student at McMaster University studying <span class="about-highlight-text">Software
-                Engineering</span>. I'm also working as chassis subteam member
-              at McMaster's Solar Car Project. In my free time I enjoy building projects using Arduino and
-              learn more about front-end development.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-1  justify-content-around row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-1  d-flex align-items-stretch-->
-
-    <section class="projects" id="projects">
-
-      <div class="container-fluid pb-2 mb-4">
-        <!-- timeline item 1 -->
-        <div class="col col-12 text-center mt-4 mb-2">
-          <h2 class="h1"><span id="slash">/</span>PROJECTS</h2>
-        </div>
-        <div class="col col-12 mt-3 mb-5">
-          <div class="row d-flex justify-content-center">
-            <div class="col col-5 col-lg-4 col-md-3 col-sm-5 line-projects"></div>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-sm">
-            <!--spacer-->
-          </div>
-          <!-- timeline item 1 center dot -->
-          <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-            <div class="row h-50">
-              <div class="col">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-            <h5 class="m-2">
-              <span class="badge badge-pill dot  border">&nbsp;</span>
-            </h5>
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-          </div>
-          <!-- timeline item 1 event content -->
-          <div class="col py-2">
-            <div class="row justify-content-center justify-content-sm-start">
-              <div class="col-lg-7 col-sm-11 col-10">
-                <div class="card shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                  <img src="biojava-logo.png" class="card-img img-fluid" alt="">
-                  <div class="card-body text-left">
-                    <h4 class="card-title">BioJava</h4>
-                    <div class="d-flex flex-wrap card-subtitle align-items-center dit my-1">
-                      <span class="badge my-1 badge-dark mr-2 p-1">Java</span>
-                      <span class="badge my-1 badge-danger mr-2 p-1">Java Swing</span>
-                      <span id="blob" class="mb-1 mx-1">
-                        <a href="https://github.com/DhrumilP/BioJava" target="_blank" rel="noopener noreferrer">
-                          <i class="fas fa-info"></i>
-                        </a>
-                      </span>
-                    </div>
-                    <p class="card-text">An application developed using Java and Java Swing to simulate famous biology convention called Punnet square. This software will calculate and output the chances for offspring having certain traits when
-                      information for parents are given. The software is also accompanied by basic definition module. This application is also accompanied with a quiz module.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--/row-->
-        <!-- timeline item 2 -->
-        <div class="row no-gutters">
-          <div class="col py-2">
-            <div class="row justify-content-center justify-content-sm-end">
-              <div class="col-lg-7 col-sm-11 col-10">
-                <div class="card shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                  <img src="aCar-logo.png" class="img-fluid card-img" alt="">
-                  <div class="card-body text-left">
-                    <h4 class="card-title">Autonomous Car</h4>
-                    <div class="d-flex flex-wrap card-subtitle align-items-center my-1">
-                      <span class="badge my-1 badge-primary mr-2 p-1">Arduino</span>
-                      <span class="badge my-1 badge-success mr-2 p-1">Sensors</span>
-                      <span id="blob" class="mb-1 mx-1">
-                        <a href="https://github.com/DhrumilP/BioJava" target="_blank" rel="noopener noreferrer">
-                          <i class="fas fa-info"></i>
-                        </a>
-                      </span>
-                    </div>
-                    <p class="card-text">The Arduino self-driven car assembled using stepper and servo motor, IR receiver, remote control, ultrasonic sensor, Capacitors and LCD screen. This project was developed for Institute of Robotics and
-                      Intelligence Systems and was implemented as one of the workshops that this organization offers.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--  -->
-          <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-            <h5 class="m-2">
-              <span class="badge badge-pill dot border">&nbsp;</span>
-            </h5>
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <!--spacer-->
-          </div>
-        </div>
-        <!--/row-->
-        <!-- timeline item 3 -->
-        <div class="row no-gutters">
-          <div class="col-sm">
-            <!--spacer-->
-          </div>
-          <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-            <h5 class="m-2">
-              <span class="badge badge-pill dot border">&nbsp;</span>
-            </h5>
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-          </div>
-          <div class="col-sm py-2">
-            <div class="row justify-content-center justify-content-sm-start">
-              <div class="col-lg-7 col-sm-11 col-10">
-                <div class="card shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                  <img src="foodPrint-logo.png" class="img-fluid card-img" alt="">
-                  <div class="card-body">
-                    <h4 class="card-title text-left">Food Print</h4>
-                    <div class="d-flex flex-wrap card-subtitle align-items-center dit my-1">
-                      <span class="badge my-1 badge-danger mr-2 p-1">Python</span>
-                      <span class="badge my-1 badge-success mr-2 p-1">Open CV</span>
-                      <span class="badge my-1 badge-info mr-2 p-1">MongoDB</span>
-                      <span id="blob" class="mb-1 mx-1">
-                        <a href="https://github.com/DhrumilP/Personal_Website" target="_blank" rel="noopener noreferrer">
-                          <i class="fas fa-info"></i>
-                        </a>
-                      </span>
-                    </div>
-                    <p class="card-text text-left">
-                      Web application developed during Deltahacks VI. Users are able to capture or upload a picture of a receipt from a grocery store and the carbon footprint of their groceries will be calculated. It is made using OpenCv for Optical
-                      Character Recognition of the receipts and then using algorithm written in python it extracts the information and cross refrences it with the database to output the carbon footprint.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--/row-->
-        <!-- timeline item 4 -->
-        <div class="row no-gutters">
-          <div class="col-sm py-2">
-            <div class="row justify-content-center justify-content-sm-end">
-              <div class="col-lg-7 col-sm-11 col-10">
-                <div class="card shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                  <img src="mad-logo.png" class="img-fluid card-img" alt="">
-                  <div class="card-body">
-                    <h4 class="card-title text-left">Personal Website</h4>
-                    <div class="d-flex flex-wrap align-items-center card-subtitle dit my-1">
-                      <span class="badge my-1 badge-primary mr-2 p-1">HTML</span>
-                      <span class="badge my-1 badge-dark mr-2 p-1">Bootstrap 4</span>
-                      <span class="badge my-1 badge-secondary mr-2 p-1">Particle.js</span>
-                      <span id="blob" class="mb-1 mx-1">
-                        <a href="https://devpost.com/software/food-print-lawz87" target="_blank" rel="noopener noreferrer">
-                          <i class="fas fa-info"></i>
-                        </a>
-                      </span>
-                    </div>
-                    <p class="card-text text-left">Personal website created using HTML, CSS, JavaScript and Bootstrap. This website is a digital resume which includes some of my projects and skills. Currently on the first version and planning to
-                      incorporate various other frameworks too to make it more interactive and other components as well.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-1 text-center flex-column d-none d-sm-flex">
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-            <h5 class="m-2">
-              <span class="badge badge-pill dot  border">&nbsp;</span>
-            </h5>
-            <div class="row h-50">
-              <div class="col">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <!--spacer-->
-          </div>
-        </div>
-        <!--/row-->
-      </div>
-    </section>
-  </div>
-  <div class="surya my-md-n4">
-    <img src="hari-1.svg" class="my-md-n5" alt="">
-  </div>
-  <!-- skills -->
-  <section class="skills mb-5 " id="skills">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col col-12 text-center mt-4 mb-2">
-          <h2 class="h1"><span id="slash">/</span>SKILLS</h2>
-        </div>
-        <div class="col col-12 mt-3 mb-5">
-          <div class="row d-flex justify-content-center">
-            <div class="col col-5 col-lg-4 col-md-3 col-sm-5 line-projects"></div>
-          </div>
-        </div>
-        <div class="col col-10">
-          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
-            <div class="col my-4">
-              <div class="card shadow border-0 mb-3" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                <div class="card-header d-flex justify-content-center mt-3 border-0 bg-white">
-                  <i class="flaticon-microcontroller skills-icon"></i>
-                </div>
-                <div class="card-body">
-                  <p class="card-title h6 mt-n2 text-center">ARDUINO</p>
-                  <div class="card-subtitle mb-4 mt-2 d-flex justify-content-center">
-                    <span class="skills-line"></span>
-                  </div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
-                    faucibus turpis in eu mi.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col my-4">
-              <div class="card border-0 mb-3 shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                <div class="card-header d-flex justify-content-center mt-3 border-0 bg-white">
-                  <i class="flaticon-code skills-icon"></i>
-                </div>
-                <div class="card-body">
-                  <p class="card-title h6 mt-n2 text-center">WEB DEVELOPMENT</p>
-                  <div class="card-subtitle mb-4 mt-2 d-flex justify-content-center">
-                    <span class="skills-line"></span>
-                  </div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
-                    faucibus turpis in eu mi.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col my-4">
-              <div class="card border-0 mb-3 shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                <div class="card-header d-flex justify-content-center mt-3 border-0 bg-white">
-                  <i class="flaticon-java skills-icon"></i>
-                </div>
-                <div class="card-body">
-                  <p class="card-title h6 mt-n2 text-center">JAVA</p>
-                  <div class="card-subtitle mb-4 mt-2 d-flex justify-content-center">
-                    <span class="skills-line"></span>
-                  </div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
-                    faucibus turpis in eu mi.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col my-4">
-              <div class="card border-0 mb-3 shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                <div class="card-header d-flex justify-content-center mt-3 border-0 bg-white">
-                  <i class="flaticon-python-file skills-icon"></i>
-                </div>
-                <div class="card-body">
-                  <p class="card-title h6 mt-n2 text-center">PYTHON</p>
-                  <div class="card-subtitle mb-4 mt-2 d-flex justify-content-center">
-                    <span class="skills-line"></span>
-                  </div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
-                    faucibus turpis in eu mi.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col my-4">
-              <div class="card border-0 mb-3 shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                <div class="card-header d-flex justify-content-center mt-3 border-0 bg-white">
-                  <i class="flaticon-machinery skills-icon"></i>
-                </div>
-                <div class="card-body">
-                  <p class="card-title h6 mt-n2 text-center">MACHINERY</p>
-                  <div class="card-subtitle mb-4 mt-2 d-flex justify-content-center">
-                    <span class="skills-line"></span>
-                  </div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
-                    faucibus turpis in eu mi.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col my-4">
-              <div class="card border-0 mb-3 shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                <div class="card-header d-flex justify-content-center mt-3 border-0 bg-white">
-                  <i class="flaticon-water-pump skills-icon"></i>
-                </div>
-                <div class="card-body">
-                  <p class="card-title h6 mt-n2 text-center">INVENTOR</p>
-                  <div class="card-subtitle mb-4 mt-2 d-flex justify-content-center">
-                    <span class="skills-line"></span>
-                  </div>
-                  <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
-                    faucibus turpis in eu mi.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--  -->
+  <!-- navbar -->
+  <nav id="navbar-site" class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <a class="navbar-brand ml-5 mr-0 animated fadeInDown delay-3s" href="index.html">
+      <img src="img/icon.png" width="30" height="30" alt=""> <!-- navbar brand -->
+    </a>
+    <!-- toggle button layout -->
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="navbarTogglerLine"></div>
+      <div class="navbarTogglerLine"></div>
+      <div class="navbarTogglerLine"></div>
+    </button>
+    <!-- navbar content start -->
+    <div class="collapse navbar-collapse d-lg-flex justify-content-md-center justify-content-start" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item pr-lg-3 ml-lg-0 ml-5 pl-0 py-2 nav-link active" href="#home">Home</a>
+        <a class="nav-item px-lg-3 ml-lg-0 ml-5 py-2 nav-link" href="#about">About</a>
+        <a class="nav-item px-lg-3 ml-lg-0 ml-5 py-2 nav-link" href="#projects">Projects</a>
+        <a class="nav-item px-lg-3 ml-lg-0 ml-5 py-2 nav-link" href="#skills">Skills</a>
+        <a class="nav-item px-lg-3 ml-lg-0 ml-5 py-2 nav-link" href="#hobbies">Hobbies</a>
+        <!-- social logo hidden in bigger views -->
+        <div class="d-flex nav-2 mx-0 mt-2 d-lg-none justify-content-md-start ml-5 p-0">
+          <div class="socialCircleIcon mr-2 mb-3"><a href="https://ca.linkedin.com/in/pandya-dhrumil" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></div>
+          <div class="socialCircleIcon mx-2 mb-3"><a href="resume.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file"></i></a></div>
+          <div class="socialCircleIcon mx-2 mb-3"><a href="mailto: dhrumil172@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></div>
+          <div class="socialCircleIcon mx-2"><a href="https://github.com/DhrumilP" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
         </div>
       </div>
     </div>
-    <div class="surya-2 my-md-n4">
-      <img src="hari-2.svg" class="my-md-n5" alt="">
+    <!-- navbar content ends -->
+  </nav>
+  <!-- navbar ends -->
+
+  <!-- hero content -->
+  <section id="home">
+    <div class="container-fluid heroLandingSection no-gutters" id="home">
+      <div class="row row-cols-1 h-100">
+        <div class="col d-flex flex-column justify-content-center">
+          <!-- logo starts -->
+          <figure class="text-center mt-n5 mb-0">
+            <img src="img/headerMad-logo-icon.png" class="img-fluid mt-n5 mt-5 animated jackInTheBox delay-3s" alt="Main_Logo" width="200px">
+            <!--Logo in the center-->
+          </figure>
+          <!-- logo ends -->
+          <!-- Matter starts -->
+          <div class="animated fadeInUp delay-3s">
+            <!-- the typeing effect -->
+            <div class="d-flex heroText justify-content-center mb-2">
+              <p class="nonHighlightedHero">I am&nbsp;</p>
+              <p class="highlightedHero" id="word"></p>
+              <p class="highlightedHero">|</p>
+            </div>
+            <!-- <p class="text-center h4">Nice to meet you!</p> -->
+            <!-- social icons -->
+            <div class="d-flex nav-2 mx-0 mt-2 justify-content-center">
+              <div class="social-icons mr-3 mb-3"><a href="https://ca.linkedin.com/in/pandya-dhrumil" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></div>
+              <div class="social-icons mx-3 mb-3"><a href="resume.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file"></i></a></div>
+              <div class="social-icons mx-3 mb-3"><a href="mailto: dhrumil172@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></div>
+              <div class="social-icons mx-3"><a href="https://github.com/DhrumilP" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
+            </div>
+          </div>
+          <!-- matter ends -->
+          <!-- scroll down animation starts -->
+          <a href="#about" class="mt-md-n0 mt-n5">
+            <div class='icon-scroll'></div>
+          </a>
+          <!-- scroll down ends -->
+        </div>
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- container ends -->
+  </section>
+
+  <!-- about me -->
+  <section id="about">
+    <!-- container start -->
+    <div class="container-fluid mb-md-n5">
+      <!-- row starts -->
+      <div class="row justify-content-center">
+        <!-- vertical line -->
+        <div class="col d-flex no-gutters justify-content-center mt-5">
+          <div class="verticalAboutLine"></div>
+        </div>
+        <!-- heading -->
+        <div class="col col-12 text-center mt-4 mb-2">
+          <h2 class="mainHeading h2"><span id="slash">/</span>ABOUT ME</h2>
+        </div>
+        <!-- horizontal line -->
+        <div class="col col-12 mt-3 mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col col-5 col-lg-4 col-md-3 col-sm-5 sectionDivider"></div>
+          </div>
+        </div>
+        <!-- matter starts -->
+        <div class="col col-md-9 col-10 d-flex flex-column justify-content-center about-content">
+          <p class="h3 text-center name-heading">Hello! I'm Dhrumil Pandya</p>
+          <p class="h6 text-center text-secondary">Designer <span class="text-danger h4">.</span> Developer <span class="text-danger h4">.</span> Learner</p>
+          <p class="h6 text-center">Welcome to <span class="accentText">my portfolio</span>. This portfolio is to display some of my projects, skills and hobbies.
+            I'm currently a student at McMaster University studying <span class="accentText">Software
+              Engineering</span>. I'm also working as chassis subteam member
+            at McMaster's Solar Car Project. In my free time I enjoy building projects using Arduino and
+            learn more about front-end development.</p>
+        </div>
+        <!-- matter ends -->
+      </div>
+      <!-- row ends -->
+    </div>
+    <!-- container ends -->
+    <!-- wave for about me section -->
+    <div class="chandra my-md-n5">
+      <img src="img/wave.svg" class="my-md-n3" alt="">
     </div>
   </section>
 
-  <!-- hobbies -->
+  <!-- projects section -->
+  <section class="projects" id="projects">
+    <div id="projectsDiv">
+    </div>
+  </section>
+
+  <!-- skills section-->
+  <section class="skills mb-5 " id="skills">
+    <div id="skillsDiv">
+    </div>
+  </section>
+
+  <!-- hobbies section -->
 
   <section class="hobbies mb-5 " id="hobbies">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col col-12 text-center mt-4 mb-2">
-          <h2 class="h1"><span id="slash">/</span>HOBBIES</h2>
-        </div>
-        <div class="col col-12 mt-3 mb-5">
-          <div class="row d-flex justify-content-center">
-            <div class="col col-5 col-lg-4 col-md-3 col-sm-5 line-projects"></div>
-          </div>
-        </div>
-        <div class="col col-10">
-          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
-            <div class="col my-4">
-              <div class="card shadow border-0 mb-3" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                <div class="card-header d-flex justify-content-center mt-3 border-0 bg-white">
-                  <i class="flaticon-badmin skills-icon"></i>
-                </div>
-                <div class="card-body">
-                  <p class="card-title h6 mt-n2 text-center">Badminton</p>
-                  <div class="card-subtitle mb-4 mt-2 d-flex justify-content-center">
-                    <span class="skills-line"></span>
-                  </div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
-                    faucibus turpis in eu mi.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col my-4">
-              <div class="card border-0 mb-3 shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                <div class="card-header d-flex justify-content-center mt-3 border-0 bg-white">
-                  <i class="flaticon-help skills-icon"></i>
-                </div>
-                <div class="card-body">
-                  <p class="card-title h6 mt-n2 text-center">Volunteering</p>
-                  <div class="card-subtitle mb-4 mt-2 d-flex justify-content-center">
-                    <span class="skills-line"></span>
-                  </div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
-                    faucibus turpis in eu mi.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col my-4">
-              <div class="card border-0 mb-3 shadow" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-duration="500">
-                <div class="card-header d-flex justify-content-center mt-3 border-0 bg-white">
-                  <i class="flaticon-brain skills-icon"></i>
-                </div>
-                <div class="card-body">
-                  <p class="card-title h6 mt-n2 text-center">Tech</p>
-                  <div class="card-subtitle mb-4 mt-2 d-flex justify-content-center">
-                    <span class="skills-line"></span>
-                  </div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sed
-                    faucibus turpis in eu mi.</p>
-                </div>
-              </div>
-            </div>
+    <div id="hobbiesDiv">
+    </div>
   </section>
 
-  <!--  -->
+  <!-- footer -->
   <footer>
+    <!-- container starts -->
     <div class="container-fluid">
+      <!-- row starts -->
       <div class="row row-cols-1 justify-content-center">
+        <!-- Logo -->
         <div class="col d-flex justify-content-center">
-          <img src="headerMad-logo.png" class="img-fluid my-5" alt="Main_Logo" width="181" height="99">
+          <img src="img/headerMad-logo.png" class="img-fluid my-5" alt="Main_Logo" width="181" height="99">
         </div>
+        <!--  -->
         <div class="col col-11 col-sm-11 col-lg-4 col-md-7 text-center">
           <p>Let's connect, I'm interested in discussing my projects and chat about programming</p>
         </div>
+        <!-- social icons -->
         <div class="col my-5">
           <div class="d-flex justify-content-center">
             <div class="Circle-footer mx-2"><a href="https://ca.linkedin.com/in/pandya-dhrumil" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
@@ -535,111 +198,44 @@
             <div class="Circle-footer mx-2"><a href="https://github.com/DhrumilP" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
           </div>
         </div>
+        <!-- Line -->
         <div class="col col-6 col-md-6 col-lg-4 d-flex justify-content-center mb-5">
-          <div class="line-f"></div>
+          <div class="footerSectionLine"></div>
         </div>
+        <!--  -->
         <div class="col text-center d-flex justify-content-center">
           <p>Designed and developed with <i class="fas fa-heart"></i> by Dhrumil Pandya</p>
         </div>
       </div>
+      <!-- row ends -->
     </div>
+    <!-- container ends -->
   </footer>
 
-  </div>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <!-- <script>
-    var myVar;
+  <!-- scripts -->
+  <!-- personal scripts -->
+  <script src="js/jquery.js"></script>
+  <script src="script.js"></script>
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!--  -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> <!-- particles -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!-- animate on scroll  -->
 
-    function myFunction() {
-      myVar = setTimeout(showPage, 1500);
-    }
-
-    function showPage() {
-      document.getElementById("spinner-wrapper").style.display = "none";
-      document.getElementById("myDiv").style.display = "block";
-    }
-  </script> -->
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <!-- particles loaded -->
   <script>
     particlesJS.load('particles-js', 'particles.json', function() {
       console.log('particles.json loaded.....')
-    })
-  </script>
-  <script>
+    });
     particlesJS.load('body-particles', 'bodyP.json', function() {
       console.log('bodyP.json loaded.....')
     })
-  </script>
-  <script>
-    const words = ["a Developer.", "Dhrumil.", "a Designer.", "a Learner."];
-    let i = 0;
-    let timer;
-
-    function typingEffect() {
-      let word = words[i].split("");
-      var loopTyping = function() {
-        if (word.length > 0) {
-          document.getElementById('word').innerHTML += word.shift();
-        } else {
-          deletingEffect();
-          return false;
-        };
-        timer = setTimeout(loopTyping, 150);
-      };
-      loopTyping();
-    };
-
-    function deletingEffect() {
-
-      let word = words[i].split("");
-      var loopDeleting = function() {
-        if (word.length > 0) {
-          word.pop();
-          document.getElementById('word').innerHTML = word.join("");
-        } else {
-          if (words.length > (i + 1)) {
-            i++;
-          } else {
-            i = 0;
-          };
-          typingEffect();
-          return false;
-        };
-        timer = setTimeout(loopDeleting, 80);
-      };
-      setTimeout(loopDeleting, 1800);
-    };
-    typingEffect();
-  </script>
-  <script type="text/javascript">
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  </script>
-  <!-- Start of Async Drift Code -->
-  <!-- End of Async Drift Code -->
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+    // aos initialized
     AOS.init();
   </script>
-  <script>
-    $(document).ready(function() {
-      setTimeout(function() {
-        document.getElementById('spinner-wrapper').style['display'] = 'none';
-        document.getElementById('spinner').style['display'] = 'none';
-        document.body.style.overflowY = "scroll";
-      }, 0);
-    });
-  </script>
 </body>
+<!-- body ends -->
 
 </html>
