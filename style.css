@@ -293,10 +293,21 @@ footer p {
   width: 20px;
   height: 50px;
   margin-left: -20px;
-  bottom: 7%;
   margin-top: -35px;
   box-shadow: inset 0 0 0 1px #fff;
   border-radius: 15px;
+}
+
+@media screen and (min-width: 450px) {
+  div.icon-scroll {
+    bottom: 7%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  div.icon-scroll {
+    bottom: 14%;
+  }
 }
 
 .icon-scroll:before {

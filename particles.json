@@ -18,7 +18,7 @@
       "random":true
     },
     "line_linked":{
-      "enable":false,
+      "enable":true,
       "distance":120
     }
 
